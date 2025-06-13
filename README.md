@@ -1,5 +1,7 @@
 # ESP_PWM
 various ESP PWM code and instructions to get ledcsetup to work
+Also, formatting on this page might be better than on GIT-
+https://docs.google.com/document/d/1SrnoR3SY7qew4us1jPctzuYo3VdSH31dt3k1QVlaOuw/edit?tab=t.0
 
 HAd trouble with ledcsetup not recognized, here is the discussion with GEMINI:
 GEMINI:
