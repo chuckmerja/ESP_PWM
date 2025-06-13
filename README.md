@@ -2,6 +2,7 @@
 various ESP PWM code and instructions to get ledcsetup to work
 
 HAd trouble with ledcsetup not recognized, here is the discussion with GEMINI:
+GEMINI:
 It sounds like you're running into a common compilation issue with your ESP32 setup! The error "LEDCSETUP NOT DECLARED IN THIS SCOPE" typically indicates that the Arduino IDE or your compiler environment isn't properly recognizing the ESP32's peripheral functions, like those used for PWM (LEDC).
 
 This usually happens for one of these reasons:
@@ -15,18 +16,14 @@ Solution: Try reinstalling the ESP32 board definitions, or even the Arduino IDE 
 The code in the Canvas document itself is correct for using the ESP32's LEDC peripheral, so no changes are needed there. Once your Arduino IDE environment is correctly set up for ESP32 development, this code should compile and upload without issues.
 
 
-
-
-
-
-ME:
+ME: 
 STILL GET LEDCSETUP ERROR AFTER uninstalling and reinstalling ESP32 lib v 3.2.0 and selecting DOIT ESP32 DEVKIT board. AND the json in preferences is correct.
 
 Then closed and restarted IDE and got "need to update libraries". We will see if that helps. As i recall, we had to go to Appdata>Arduino15 and make it "OLD" then restart IDE to rebuild all the libraries. and it worked.
 
 
 
-
+GEMINI:
 Show thinking
 You're right to be persistent with that error! It's frustrating when the standard fixes don't work. The "LEDCSETUP NOT DECLARED" error strongly points to the Arduino IDE not properly finding or loading the ESP32 core libraries, even if you've reinstalled them.
 
